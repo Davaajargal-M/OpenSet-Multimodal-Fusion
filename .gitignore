@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
+
+# Data and heavy artifacts
+data/*
+!data/README.md
+results/*
+!results/.gitkeep
+*.mat
+*.h5
+*.pth
+*.pt
+*.ckpt
+*.npy
+*.npz
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

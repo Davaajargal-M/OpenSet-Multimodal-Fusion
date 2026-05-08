@@ -1,0 +1,20 @@
+name: openset-mm-fusion
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - scipy
+  - scikit-learn
+  - pandas
+  - h5py
+  - tqdm
+  - matplotlib
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.1
+  - pip:
+      - -r requirements.txt
